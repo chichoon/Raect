@@ -7,6 +7,10 @@
     "strict": true,
     "moduleResolution": "Node",
     "skipLibCheck": true,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "@raect/*": ["./src/Raect/*"],
+      "@test/*": ["./src/TestClient/*"]
+    }
   }
 }
