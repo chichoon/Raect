@@ -5,7 +5,7 @@ const path = require('path');
 const currentMode = process.env.NODE_ENV === 'production' ? 'production' : 'development';
 
 module.exports = {
-  entry: { index: './src/index.ts' }, // 진입점 (1개)
+  entry: { index: './src/TestClient/index.ts' }, // 진입점 (1개)
   output: {
     path: path.resolve(__dirname, '/dist'), // 번들링 파일 저장 폴더
     filename: 'bundle.js', // 번들링 파일 이름
@@ -46,8 +46,8 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.js', '.tsx', '.jsx'],
     alias: {
-      '@components': path.resolve(__dirname, '/src/components'),
-      '@pages': path.resolve(__dirname, '/src/pages'),
+      '@raect': path.resolve(__dirname, '/src/Raect'),
+      '@test': path.resolve(__dirname, '/src/TestClient'),
     },
   },
 };
