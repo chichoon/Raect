@@ -1,0 +1,49 @@
+{
+  "name": "raect",
+  "version": "1.0.0",
+  "description": "리액트 및 자바스크립트 객체들 짝퉁 만들어보기",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chichoon/Raect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chichoon/Raect/issues"
+  },
+  "homepage": "https://github.com/chichoon/Raect#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.24.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-testing-library": "^5.7.0",
+    "eslint-webpack-plugin": "^3.2.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "prettier": "^2.7.1",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
