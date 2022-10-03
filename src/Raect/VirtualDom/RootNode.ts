@@ -8,7 +8,7 @@ export class RootNode {
 
   render(childNode: VirtualDOMNode) {
     if (this.#rootDOMNode.innerHTML !== '')
-      console.error("Raect couldn't render child elements if root element is not empty.");
+      throw new Error("Raect couldn't render child elements if root element is not empty.");
     else this.#rootDOMNode.appendChild(childNode.createDOMElement());
   }
 
