@@ -2,11 +2,11 @@ interface AttributeObject {
   [key: string]: string;
 }
 
-export class DomNodeClass {
+export class VirtualDOMNode {
   #type;
   #attributes;
   #children;
-  constructor(type: string, attributes: AttributeObject, children: Array<DomNodeClass | string>) {
+  constructor(type: string, attributes: AttributeObject, children: Array<VirtualDOMNode | string>) {
     this.#type = type;
     this.#attributes = attributes;
     this.#children = children;
