@@ -1,7 +1,7 @@
 import { createRoot, VirtualDOMNode } from '@raect/VirtualDom';
 
 let oldVirtualDOM = new VirtualDOMNode('div', { class: 'title-wrapper' }, [
-  new VirtualDOMNode('h1', { class: 'title-header', id: 'header' }, ['환영합니다!']),
+  new VirtualDOMNode('h1', { class: 'title-header', id: 'header' }, [new VirtualDOMNode('i', {}, ['환영합니다!'])]),
   new VirtualDOMNode('p', { class: 'title-header', id: 'header-p' }, ['이곳은 chichoon 블로그 입니다']),
 ]);
 
