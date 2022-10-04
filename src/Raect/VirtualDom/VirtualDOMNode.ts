@@ -6,6 +6,7 @@ export class VirtualDOMNode {
   #type;
   #attributes;
   #children;
+
   constructor(type: string, attributes: AttributeObject, children: Array<VirtualDOMNode | string>) {
     this.#type = type;
     this.#attributes = attributes;
