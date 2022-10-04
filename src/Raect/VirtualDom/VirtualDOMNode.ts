@@ -24,6 +24,14 @@ export class VirtualDOMNode {
     return this.#children;
   }
 
+  setAttributes(key: string, value: string) {
+    this.#attributes[key] = value;
+  }
+
+  removeAttributes(key: string) {
+    delete this.#attributes[key];
+  }
+
   createDOMElement() {
     const element = document.createElement(this.#type);
 
