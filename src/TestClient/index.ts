@@ -13,7 +13,7 @@ let newVirtualDOM = new VirtualDOMNode('div', { class: 'title-wrapper' }, [
 const root = createRoot(document.getElementById('root'));
 root.render(oldVirtualDOM);
 
-setTimeout(() => {
+setInterval(() => {
   const temp = oldVirtualDOM;
   oldVirtualDOM = newVirtualDOM;
   newVirtualDOM = temp;

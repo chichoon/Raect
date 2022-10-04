@@ -24,5 +24,6 @@ export class RootNode {
   update(newChildNode: VirtualDOMNodeType) {
     // 현재 Virtual DOM과 실제 DOM을 업데이트 하는 함수
     updateEachNode(this.#rootDOMNode, this.#virtualDOMNode, newChildNode, 0);
+    this.#virtualDOMNode = newChildNode;
   }
 }
